@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a915c08dae78d3ebfd81839aa0922af0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="925ec89d545e33030131b9470db85e701a8c61a4">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/bbc187e2b14509f4d198cc24dc843998/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8510837b7e70ee5f12cf2a20dd0a1b3d23a0cdeb">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d7d45e2e2b04973583e80357a7cd3623/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a69067467c7e4d5c810ea19ee43cbfab00a292b4">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b9a2f927aadd504cb90ff39fc24e41f8/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de467de1baba33a922246561f87c0a910206d1ff">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1bcdade4d3cc2836130424a3f3e4182c666a745">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40047e09852ef9e7e451f87334799780/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="afb9ac89f722ac83466f1bb5f2135010b7f05f32">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e9df6b150fba4e455431c41b26537120/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9335f203759bfcda4b6ea729dddcf06c07150d3f">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9637bad8912ef736f8981453e3422040/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7b15ada2209f82b0249f331cb7ec70394dc2e828">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/329dfd249b62b4fefe01d8daa5019b0d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/8bcc2b405a2acaa0f27d5fb0c71d67c7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="41b8c7e99024d4288d7dfc709bb72fdaa5fdc32f">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/79d6a69ce6b4484a79b51c40936bc8a4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3fec43a847d8788b7642a1932e6266ef8bdab169">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f4b2bd51a47b508222c58ecce0bb8a12/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.1.1.aar/fe2af5581e8a070d6dd845b1f9a58e24/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c14adc0ec14dde13212f744e3b0d1aed7b55887d">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2244830db0703e908e2fc5a1cc258370/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e85417e7990657be8fe07d63fd5278d82eb960e">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/3db7accfb2becc4368a9f30303e93a7a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6fff1d276738bb82cfc131c49d2e72a47dfd0aa">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3d19100d7a4e6a5d166c874f90a49d76/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddfc0d219f43bf3c1e357a55284cbd1000e461bf">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/Desktop/ExpenseTracker/app/libs/javaluator-3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2858833d5416801d8df6928ef4a9c9acb5e289e3">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1fe78892481823bfba80e3d62b0ec46d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b99e6cdcb85894164e1a06145a5f6b78e3cb7270">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/08c4868ad51037ff9a5b43b012ef5315/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9aff7eec7a0b091e460e44b8bb0bf64cadc0844">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.0.3.aar/f62e56bf4cbd61ba774e3673ac9081bf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89de845998ac6fe720d706c77df5a6f892a2aa72">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3520e0d536b16851322cf25d3e241778/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="be31b531309a9196873ba4ac96ea9484ca0ecad6">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c24b2ab927777bb0b87ccd2575f837bf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e9b03dd36d3c106574e2cdeb8edd543bd5e51d0e">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/0e8ac2b7edb16a4b85bc586533482a5d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fad505737146925636e28753e26523c3a8a03e48">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/43a29f907d56fefa57bec28a091056f0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1173d9f45ae18f2e0dc8ec42d15fa5b95c391d1">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="207a6efae6a3555e326de41f76bdadd9a239cbce">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/91a794a308b1bd2330dc5d44c883ec5d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70bf65523dc3db43f6c3749931976585a8f4dd20">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/31223a9cd505c338e5617a12de345989/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f77c6cfaee7ee7c8844d5340e47a38c3fdea7060">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/26970914e331a5b58fb7f6cf310a8cd5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b05ce31f5d87a7f16cdbdbc5e3a7cf2190bf0118">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-gass-17.1.1.aar/fd46915d0eeeeb0fdad9a75604f7dbbd/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="13de9d9093a5d3dc2beb9544e3eff88ad81db0d6">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f785f5efad86bc07beab02f66cf3c5b6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a6d4c3181151ffbcd67897e94c688f6c200c5bec">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.82.2/c6325383149a08e5cb668bdc4d3c790708636e47/realm-android-0.82.2.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6325383149a08e5cb668bdc4d3c790708636e47">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ecbeea7a6a242d8234b82a8bab6d8eee/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="234e706c7aea09f97738c7830d144d50d240079e">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/d6f94c9accfd9c91b1b3e1a7c0a40a4c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="85a55b3892bcf1a7da4d4bf4353460c84b1b4754">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/47406b67dc58882c77cbe729464565b6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="31b98191e7c892b25799dbe30c8124210a68e201">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/OoOAlertDialog-1.0.3.aar/39430fc74934642d8b8aa6b43c2cfbd1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8857051fc408c6aa6ee72cc9660b06e07651b4fa">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/4108c8fed6005f65e408639464047321/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25cdd380f0a1b2f67a0b7253bbf1f343df981e5e">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/1086af71a1548d1463b58685c51fd850/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc2312db86ce2a79257f31f648ff8e32e3008db7">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/library-2.4.1.aar/02a81def35b4432d1accef7e604d0efd/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2d668633d712e0b1781d12be41f6e6fc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ef698b3c8609d86cac06834429a39ef417d5b57a">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/017a7cd05ecf9bb58e3bf8e628ef3f99/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="19e63f5c3afd0a4379bfb830816bb8a9661aba75">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-17.1.1.aar/352745fb03a64d2b2189668257334920/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58f562d2194f1d0197dd83ae3a444fa9d8081b3f">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.4/58ce41ef04e5b0821b9c3eb2387df515f10702d7/MPAndroidChart-v2.1.4.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58ce41ef04e5b0821b9c3eb2387df515f10702d7">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/dbbb386896612fc8d6ff89ecd703871d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5b049b5525643f62ebe162013dae975c7e74dcc5">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7a0791a48f8cb8f2546625b9ad849d8d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49b8af59d5819c80792707bdda93a5c9a917e24c">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-28.0.0.aar/5186fc8bb33666e1159729f0eae62854/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="892c8cb2a041047aee4e8a3f014ab7582c6582e6">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d275a664c5261025d83c4119420e8df0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="376a25a3bdce5133262368e85d430aae5bb80c28">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c63e4d37e2cafbf2a7f72d863b4c4109/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ba4c894fd0a3d36e8f06f4947ab639140e668088">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-17.1.1.aar/5ad3853e71e6757553ed9dbc28799839/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="79664b87e7a79466c70dcb3b43394170f843ddc8">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ripanhossain/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dc9fcde4b9a9deff8be5190cc215cde7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1c031c4ca26cea0adbe178007dd3bfd311be983">
+        <dex dex="/Users/ripanhossain/Desktop/ExpenseTracker/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+
+</items>
