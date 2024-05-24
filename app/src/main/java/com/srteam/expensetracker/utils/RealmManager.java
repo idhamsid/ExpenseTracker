@@ -23,7 +23,7 @@ public class RealmManager {
     }
 
     public RealmManager(){
-        realm = Realm.getInstance(ExpenseTrackerApp.getContext());
+            realm = Realm.getInstance(ExpenseTrackerApp.getContext());
     }
 
     public Realm getRealmInstance() {
