@@ -13,6 +13,7 @@ import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -25,6 +26,7 @@ import com.srteam.expensetracker.custom.SparseBooleanArrayParcelable;
 import com.srteam.expensetracker.entities.Expense;
 import com.srteam.expensetracker.interfaces.IConstants;
 import com.srteam.expensetracker.interfaces.IDateMode;
+import com.srteam.expensetracker.isConfig.isAdsConfig;
 import com.srteam.expensetracker.ui.MainFragment;
 import com.srteam.expensetracker.utils.ExpensesManager;
 
@@ -63,10 +65,8 @@ public class ExpensesFragment extends MainFragment implements BaseViewHolder.Rec
 
 
 
-        AdView mAdView =rootView.findViewById(R.id.adView);
-        MobileAds.initialize(getActivity(), getResources().getString(R.string.banner_id));
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        RelativeLayout mAdView =rootView.findViewById(R.id.adView);
+        isAdsConfig.showBanner(getActivity(),mAdView,false);
 
 
         return rootView;

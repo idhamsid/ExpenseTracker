@@ -6,12 +6,14 @@ import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.srteam.expensetracker.R;
+import com.srteam.expensetracker.isConfig.isAdsConfig;
 import com.srteam.expensetracker.ui.BaseActivity;
 
 public class ExCalculatorActivity extends BaseActivity {
@@ -38,12 +40,8 @@ public class ExCalculatorActivity extends BaseActivity {
 
         /*banner ad*/
 
-        AdView mAdView = findViewById(R.id.adView);
-        MobileAds.initialize(this, getResources().getString(R.string.banner_id));
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-
+        RelativeLayout mAdView = findViewById(R.id.adView);
+        isAdsConfig.showBanner(this,mAdView,false);
 
 
         tvFnum =  findViewById(R.id.tv_fnum);

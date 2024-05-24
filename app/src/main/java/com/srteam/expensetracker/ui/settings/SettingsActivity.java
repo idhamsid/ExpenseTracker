@@ -11,11 +11,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.srteam.expensetracker.R;
+import com.srteam.expensetracker.isConfig.isAdsConfig;
 
 public class SettingsActivity  extends PreferenceActivity
         implements Preference.OnPreferenceChangeListener, SharedPreferences.OnSharedPreferenceChangeListener {
@@ -41,10 +43,9 @@ public class SettingsActivity  extends PreferenceActivity
 
         /*banner ad*/
 
-        AdView mAdView = findViewById(R.id.adView);
-        MobileAds.initialize(this, getResources().getString(R.string.banner_id));
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
+        RelativeLayout mAdView = findViewById(R.id.adView);
+        isAdsConfig.showBanner(this,mAdView,false);
     }
 
     private void setToolbar(Toolbar mToolbar) {

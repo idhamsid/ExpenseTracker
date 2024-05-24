@@ -651,8 +651,13 @@
     <string name="factorial" >x!</string>
 
     <!--Ad mob Ads Id Setup-->
-    <string name="app_id">ca-app-pub-6332902664669045~1905674158</string>
-    <string name="banner_id">ca-app-pub-6332902664669045/5506007819</string>
-    <string name="interstitial_id">ca-app-pub-6332902664669045/6216454257</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward_id">ca-app-pub-3940256099942544/5224354917</string>
     <string name="expense_calculator">Expense Calculator</string>
+
+    <string name="txt_watch_ads">Watch video ads to continue..</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="watch_ads">Watch Ads</string>
 </resources>

@@ -101,7 +101,7 @@ public class ListProvider implements RemoteViewsService.RemoteViewsFactory {
         Date today = DateUtils.getToday();
         Date tomorrow = DateUtils.getTomorrowDate();
         this.expenseList = new ArrayList<>();
-        Realm realm = Realm.getInstance(context);
+        Realm realm = Realm.getDefaultInstance();
         //sync realm instance with other instances
         realm.refresh();
         this.expenseList = Expense.cloneExpensesCollection(realm.where(Expense.class).between("date", today, tomorrow).findAll());

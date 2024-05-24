@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.srteam.expensetracker.R;
+import com.srteam.expensetracker.isConfig.isAdsConfig;
 
 import static java.lang.Thread.sleep;
 
@@ -15,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-
+        isAdsConfig.initAds(this);
         Thread myThread = new Thread(new Runnable() {
             public void run() {
 

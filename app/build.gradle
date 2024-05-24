@@ -5,8 +5,8 @@ android {
     namespace "com.srteam.expensetracker"
     compileSdk 34
     defaultConfig {
-        applicationId "com.srteam.expensetracker"
-        minSdkVersion 16
+        applicationId "com.test.testtttt"
+        minSdkVersion 21
         targetSdk 34
         versionCode 3
         versionName "1.3"
@@ -39,8 +39,7 @@ dependencies {
     implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1@aar'
     implementation 'com.github.PhilJay:MPAndroidChart:v2.1.4'
 
-
     implementation 'com.github.Joinersa:OoOAlertDialog:1.0.3'
 
-    implementation 'com.google.android.gms:play-services-ads:17.1.1'
+    implementation 'com.google.android.gms:play-services-ads:23.1.0'
 }

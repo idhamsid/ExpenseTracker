@@ -5,12 +5,13 @@ buildscript {
         jcenter()
         mavenCentral()
         google()
+        maven { url "https://jitpack.io" }
         maven {
             url 'https://oss.sonatype.org/content/repositories/snapshots/'
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.2.2'
         classpath 'com.google.gms:google-services:4.3.10'
         classpath "io.realm:realm-gradle-plugin:10.18.0"
         // Used in Butter knife
@@ -24,6 +25,7 @@ allprojects {
         jcenter()
         mavenCentral()
         google()
+        maven { url "https://jitpack.io" }
         maven {
             url 'https://oss.sonatype.org/content/repositories/snapshots/'
         }

@@ -1,5 +1,7 @@
 package com.srteam.expensetracker.ui;
 
+import static com.srteam.expensetracker.isConfig.Config.INTERVAL;
+
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
@@ -30,11 +32,11 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
 import com.srteam.expensetracker.R;
 import com.srteam.expensetracker.entities.Expense;
 import com.srteam.expensetracker.interfaces.IDateMode;
 import com.srteam.expensetracker.interfaces.IMainActivityListener;
+import com.srteam.expensetracker.isConfig.isAdsConfig;
 import com.srteam.expensetracker.ui.ExpenseCalculator.ExCalculatorActivity;
 import com.srteam.expensetracker.ui.categories.CategoriesFragment;
 import com.srteam.expensetracker.ui.expenses.ExpensesContainerFragment;
@@ -80,12 +82,12 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     private TextView tvDescription;
     private TextView tvTotal;
     public static final String EMPTY_STRING = "";
-    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        isAdsConfig.loadInters(this,false);
         initUI();
         setUpDrawer();
         setUpToolbar();
@@ -115,9 +117,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         tvDate = (TextView)findViewById(R.id.tv_date);
         tvDescription = (TextView)findViewById(R.id.tv_description);
         tvTotal = (TextView)findViewById(R.id.tv_total);
-
-
-        showBannerInterstitialAd();
     }
 
     private void setUpDrawer() {
@@ -154,19 +153,76 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            onAddLodded();
-            adShow();
-            startActivity(new Intent(this, SettingsActivity.class));
+            isAdsConfig.setIsAdsListener(new isAdsConfig.IsAdsListener() {
+                @Override
+                public void onClose() {
+                    startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                }
+
+                @Override
+                public void onShow() {
+
+                }
+
+                @Override
+                public void onNotShow() {
+                    startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                }
+
+                @Override
+                public void onDisable() {
+                    startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                }
+            });
+            isAdsConfig.showInterst(this,INTERVAL);
             return true;
         } else if (id == R.id.action_help) {
-            onAddLodded();
-            adShow();
-            startActivity(new Intent(this, HelpActivity.class));
+            isAdsConfig.setIsAdsListener(new isAdsConfig.IsAdsListener() {
+                @Override
+                public void onClose() {
+                    startActivity(new Intent(MainActivity.this, HelpActivity.class));
+                }
+
+                @Override
+                public void onShow() {
+
+                }
+
+                @Override
+                public void onNotShow() {
+                    startActivity(new Intent(MainActivity.this, HelpActivity.class));
+                }
+
+                @Override
+                public void onDisable() {
+                    startActivity(new Intent(MainActivity.this, HelpActivity.class));
+                }
+            });
+            isAdsConfig.showInterst(this,INTERVAL);
             return true;
         } else if (id == R.id.action_cal) {
-            onAddLodded();
-            adShow();
-            startActivity(new Intent(this, ExCalculatorActivity.class));
+            isAdsConfig.setIsAdsListener(new isAdsConfig.IsAdsListener() {
+                @Override
+                public void onClose() {
+                    startActivity(new Intent(MainActivity.this, ExCalculatorActivity.class));
+                }
+
+                @Override
+                public void onShow() {
+
+                }
+
+                @Override
+                public void onNotShow() {
+                    startActivity(new Intent(MainActivity.this, ExCalculatorActivity.class));
+                }
+
+                @Override
+                public void onDisable() {
+                    startActivity(new Intent(MainActivity.this, ExCalculatorActivity.class));
+                }
+            });
+            isAdsConfig.showInterst(this,INTERVAL);
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -351,34 +407,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                 case R.id.nav_About:
                 showAboutsDialog();
                 break;
-        }
-    }
-
-
-    private void showBannerInterstitialAd() {
-        /*InterstitialAd*/
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(this.getString(R.string.interstitial_id));
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    private void adShow() {
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-    }
-
-    private void onAddLodded() {
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        } else {
-            mInterstitialAd.loadAd(new AdRequest.Builder().build());
         }
     }
 

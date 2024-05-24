@@ -8,6 +8,7 @@ import com.srteam.expensetracker.entities.Reminder;
 import java.util.UUID;
 
 import io.realm.Realm;
+import io.realm.RealmConfiguration;
 import io.realm.RealmObject;
 import io.realm.RealmResults;
 
@@ -23,7 +24,13 @@ public class RealmManager {
     }
 
     public RealmManager(){
-            realm = Realm.getInstance(ExpenseTrackerApp.getContext());
+            Realm.init(ExpenseTrackerApp.getContext());
+        RealmConfiguration realmConfiguration = new RealmConfiguration.Builder().name(Realm.DEFAULT_REALM_NAME)
+                .schemaVersion(0)
+                .allowWritesOnUiThread(true)
+                .deleteRealmIfMigrationNeeded()
+                .build();
+            realm =  Realm.getInstance(realmConfiguration);
     }
 
     public Realm getRealmInstance() {
@@ -31,6 +38,7 @@ public class RealmManager {
     }
 
     public <E extends RealmObject> void update(final E object) {
+
         realm.executeTransaction(new Realm.Transaction() {
             @Override
             public void execute(Realm realm) {
@@ -70,10 +78,10 @@ public class RealmManager {
                         Category category = (Category) object;
                         RealmResults<Expense> expenseList  = Expense.getExpensesPerCategory(category);
                         for (int i = expenseList.size()-1; i >= 0; i--) {
-                            expenseList.get(i).removeFromRealm();
+                            expenseList.get(i).deleteFromRealm();
                         }
                     }
-                    object.removeFromRealm();
+                    object.deleteFromRealm();
                 }
             }
         });
@@ -87,10 +95,10 @@ public class RealmManager {
                     Category category = (Category) object;
                     RealmResults<Expense> expenseList  = Expense.getExpensesPerCategory(category);
                     for (int i = expenseList.size()-1; i >= 0; i--) {
-                        expenseList.get(i).removeFromRealm();
+                        expenseList.get(i).deleteFromRealm();
                     }
                 }
-                object.removeFromRealm();
+                object.deleteFromRealm();
             }
         });
     }
