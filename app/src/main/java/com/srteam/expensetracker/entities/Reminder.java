@@ -1,5 +1,7 @@
 package com.srteam.expensetracker.entities;
 
+import static android.app.PendingIntent.FLAG_IMMUTABLE;
+
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -113,7 +115,7 @@ public class Reminder extends RealmObject {
         Intent intent = new Intent(ExpenseTrackerApp.getContext(), AlarmReceiver.class);
         intent.putExtra(NewReminderFragment.REMINDER_ID_KEY, reminder.getId());
 
-        PendingIntent alarmIntent = PendingIntent.getBroadcast(ExpenseTrackerApp.getContext(), (int) reminder.getCreatedAt().getTime(), intent, 0);
+        PendingIntent alarmIntent = PendingIntent.getBroadcast(ExpenseTrackerApp.getContext(), (int) reminder.getCreatedAt().getTime(), intent, 0 | FLAG_IMMUTABLE);
         alarmMgr.set(AlarmManager.RTC_WAKEUP, alarmCalendar.getTimeInMillis(), alarmIntent);
 
     }
@@ -122,7 +124,7 @@ public class Reminder extends RealmObject {
         AlarmManager alarmMgr = (AlarmManager) ExpenseTrackerApp.getContext().getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(ExpenseTrackerApp.getContext(), AlarmReceiver.class);
         intent.putExtra(NewReminderFragment.REMINDER_ID_KEY, reminder.getId());
-        PendingIntent alarmIntent = PendingIntent.getBroadcast(ExpenseTrackerApp.getContext(), (int) reminder.getCreatedAt().getTime(), intent, 0);
+        PendingIntent alarmIntent = PendingIntent.getBroadcast(ExpenseTrackerApp.getContext(), (int) reminder.getCreatedAt().getTime(), intent, 0 | FLAG_IMMUTABLE);
         alarmMgr.cancel(alarmIntent);
     }
 
